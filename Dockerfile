@@ -1,3 +1,5 @@
 FROM scratch
 
-ENTRYPOINT [ "entrypoint.sh" ]
+COPY src/entrypoint.sh .
+
+ENTRYPOINT [ "./entrypoint.sh" ]
