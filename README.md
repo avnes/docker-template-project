@@ -1,2 +1,3 @@
 # docker-template-project
-A template project for my Docker projects
+
+A template project for my Docker projects.
